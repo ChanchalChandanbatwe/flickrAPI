@@ -1,2 +1,2 @@
 # flickrAPI
-Flickr API, node server angular front end
+Download repo, unzip flickrServer.zip, run cmd 'node server.js'
