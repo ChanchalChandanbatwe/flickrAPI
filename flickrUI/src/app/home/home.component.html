@@ -1,0 +1,53 @@
+<header>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+              <strong>Flickr Demo</strong>
+            </a>
+            
+          </div>
+        </div>
+      </header>
+<main role="main">
+
+    <section class="jumbotron text-center">
+    <div class="container">
+        <!-- <h1 class="jumbotron-heading">Home</h1> -->
+        <div class="col-md-4 offset-4">
+            <form #searchPhotos = "ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit) = "search(searchPhotos.value)" >
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="searchForTag" ngModel>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                  
+                </div>
+                <p class="lead text-muted">Enter tag name to search photos on Flickr.<img *ngIf="loading" src="../../assets/loader.gif" /></p>
+        <!-- <p>
+        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+        </p> -->
+    </div>
+    </section>
+    <div class="album py-5 bg-light search-results" infinite-scroll
+    [infiniteScrollDistance]="scrollDistance"
+    [infiniteScrollUpDistance]="scrollUpDistance"
+    [infiniteScrollThrottle]="throttle"
+    (scrolled)="onScrollDown()"><!-- (scrolledUp)="onUp()" -->
+    
+        <div class="container">
+              <div class="row" *ngIf="!hide">
+                  <div class="col-md-4" *ngFor="let photo of photos">
+                      <div class="card mb-4 shadow-sm">
+                          <img src="http://farm3.static.flickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}.jpg"  class="bd-placeholder-img card-img-top" width="100%" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"/> 
+                          <div class="card-body">
+                              <p class="card-text">Title: {{photo.title}}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row" *ngIf="hide">
+                <div class="col-md-4"> <p class="text-justify">No data found!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
