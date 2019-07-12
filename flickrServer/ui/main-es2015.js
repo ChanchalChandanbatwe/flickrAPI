@@ -183,7 +183,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".search-results {\n  height: 100%;\n}\n\n.bd-placeholder-img {\n  font-size: 1.125rem;\n  text-anchor: middle;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n@media (min-width: 768px) {\n  .bd-placeholder-img-lg {\n    font-size: 3.5rem;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2NoYW5jaGFsL3dvcmtzcGFjZS9kZW1vL2ZsaWNrclVJL3NyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0FDQ0o7O0FERUU7RUFDRSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EseUJBQUE7RUFDQSxzQkFBQTtFQUNBLHFCQUFBO0VBQ0EsaUJBQUE7QUNDSjs7QURFRTtFQUNFO0lBQ0UsaUJBQUE7RUNDSjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNlYXJjaC1yZXN1bHRzIHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gIH1cblxuICAuYmQtcGxhY2Vob2xkZXItaW1nIHtcbiAgICBmb250LXNpemU6IDEuMTI1cmVtO1xuICAgIHRleHQtYW5jaG9yOiBtaWRkbGU7XG4gICAgLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTtcbiAgICAtbW96LXVzZXItc2VsZWN0OiBub25lO1xuICAgIC1tcy11c2VyLXNlbGVjdDogbm9uZTtcbiAgICB1c2VyLXNlbGVjdDogbm9uZTtcbiAgfVxuXG4gIEBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAgIC5iZC1wbGFjZWhvbGRlci1pbWctbGcge1xuICAgICAgZm9udC1zaXplOiAzLjVyZW07XG4gICAgfVxuICB9XG4iLCIuc2VhcmNoLXJlc3VsdHMge1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5iZC1wbGFjZWhvbGRlci1pbWcge1xuICBmb250LXNpemU6IDEuMTI1cmVtO1xuICB0ZXh0LWFuY2hvcjogbWlkZGxlO1xuICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lO1xuICAtbW96LXVzZXItc2VsZWN0OiBub25lO1xuICAtbXMtdXNlci1zZWxlY3Q6IG5vbmU7XG4gIHVzZXItc2VsZWN0OiBub25lO1xufVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgLmJkLXBsYWNlaG9sZGVyLWltZy1sZyB7XG4gICAgZm9udC1zaXplOiAzLjVyZW07XG4gIH1cbn0iXX0= */"
+module.exports = ".search-results {\n  height: 100%;\n}\n\n.bd-placeholder-img {\n  font-size: 1.125rem;\n  text-anchor: middle;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n@media (min-width: 768px) {\n  .bd-placeholder-img-lg {\n    font-size: 3.5rem;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2NoYW5jaGFsL3dvcmtzcGFjZS9zYW1wbGVEZW1vL2ZsaWNrclVJL3NyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0FDQ0o7O0FERUU7RUFDRSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EseUJBQUE7RUFDQSxzQkFBQTtFQUNBLHFCQUFBO0VBQ0EsaUJBQUE7QUNDSjs7QURFRTtFQUNFO0lBQ0UsaUJBQUE7RUNDSjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNlYXJjaC1yZXN1bHRzIHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gIH1cblxuICAuYmQtcGxhY2Vob2xkZXItaW1nIHtcbiAgICBmb250LXNpemU6IDEuMTI1cmVtO1xuICAgIHRleHQtYW5jaG9yOiBtaWRkbGU7XG4gICAgLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTtcbiAgICAtbW96LXVzZXItc2VsZWN0OiBub25lO1xuICAgIC1tcy11c2VyLXNlbGVjdDogbm9uZTtcbiAgICB1c2VyLXNlbGVjdDogbm9uZTtcbiAgfVxuXG4gIEBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAgIC5iZC1wbGFjZWhvbGRlci1pbWctbGcge1xuICAgICAgZm9udC1zaXplOiAzLjVyZW07XG4gICAgfVxuICB9XG4iLCIuc2VhcmNoLXJlc3VsdHMge1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5iZC1wbGFjZWhvbGRlci1pbWcge1xuICBmb250LXNpemU6IDEuMTI1cmVtO1xuICB0ZXh0LWFuY2hvcjogbWlkZGxlO1xuICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lO1xuICAtbW96LXVzZXItc2VsZWN0OiBub25lO1xuICAtbXMtdXNlci1zZWxlY3Q6IG5vbmU7XG4gIHVzZXItc2VsZWN0OiBub25lO1xufVxuXG5AbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgLmJkLXBsYWNlaG9sZGVyLWltZy1sZyB7XG4gICAgZm9udC1zaXplOiAzLjVyZW07XG4gIH1cbn0iXX0= */"
 
 /***/ }),
 
@@ -309,7 +309,7 @@ let RestApiService = class RestApiService {
     constructor(http) {
         this.http = http;
         // Define API
-        this.apiURL = 'http://localhost:8081/api';
+        this.apiURL = 'http://127.0.0.1:8081/api';
         /*========================================
           Methods for consuming RESTful API
         =========================================*/
@@ -416,7 +416,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/chanchal/workspace/demo/flickrUI/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/chanchal/workspace/sampleDemo/flickrUI/src/main.ts */"./src/main.ts");
 
 
 /***/ })
