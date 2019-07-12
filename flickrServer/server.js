@@ -24,7 +24,7 @@ app.use(express.static(__dirname + "/ui"));
 
 app.get('/api', function (req, res) {
   // console.log('req.query ', req.query)
-  // res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
+  res.setHeader('Access-Control-Allow-Origin', '*');
   
   let qStr='';
   if (req.query.string!='') {
