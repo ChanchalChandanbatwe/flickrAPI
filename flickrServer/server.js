@@ -12,6 +12,7 @@ flickrOptions = {
   };
 // Flickr object init
 var flickrObj;
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({
   extended: true,
