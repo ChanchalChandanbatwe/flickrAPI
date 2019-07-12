@@ -309,7 +309,7 @@ let RestApiService = class RestApiService {
     constructor(http) {
         this.http = http;
         // Define API
-        this.apiURL = 'http://127.0.0.1:8081/api';
+        this.apiURL = 'http://107.21.82.243:8081/api';
         /*========================================
           Methods for consuming RESTful API
         =========================================*/
