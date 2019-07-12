@@ -43,7 +43,7 @@ app.get('/api', function (req, res) {
   };
     flickrObj.photos.search(options, function(err, result) {
         if(err) { throw new Error(err); }
-        // console.log('result ', result)
+         //console.log('result ', result)
         res.json(result);
       });
       
