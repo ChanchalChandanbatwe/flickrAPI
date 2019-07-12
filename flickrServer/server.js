@@ -12,13 +12,18 @@ flickrOptions = {
   };
 // Flickr object init
 var flickrObj;
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({
   extended: true,
 }));
-app.use(cors())
 app.use(bodyParser.json()); // support json encoded bodies
+app.use(cors({
+  'allowedHeaders': ['sessionId', 'Content-Type'],
+  'exposedHeaders': ['sessionId'],
+  'origin': '*',
+  'methods': 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  'preflightContinue': false
+  }));
 app.use(bodyParser.urlencoded({	extended: true })); // support encoded bodies
 app.use(express.static(__dirname + "/ui"));
 
