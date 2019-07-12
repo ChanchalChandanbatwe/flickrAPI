@@ -10,9 +10,9 @@ flickrOptions = {
     // user_id: "182529446@N03"
   //   token: "580-763-747"
   };
+// Flickr object init
 var flickrObj;
 var bodyParser = require('body-parser');
-
 app.use(bodyParser.urlencoded({
   extended: true,
 }));
